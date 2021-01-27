@@ -41,6 +41,17 @@ shinyUI(fluidPage(
              ),
              ),
     ),
+        tags$div(class= "col-sm-12 boxTemplate",
+                 tags$div(class= "col-sm-12",
+                          tags$h2("Template 2",tags$a(href = "https://github.com/tanaphum/shiny-template-1",
+                                                      tags$image(src="/logo/GitHub-Mark-Light-32px.png"
+                                                      )))
+                          ),
+             tags$div(class="col-sm-12",
+                      tags$image(class="image2",src="/image/template2/1.png"
+                      )
+             ),
+            )
     ),
     tags$div(class="col-sm-12 footer",
 
