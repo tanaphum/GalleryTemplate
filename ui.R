@@ -22,7 +22,7 @@ shinyUI(fluidPage(
     tags$div(class="col-sm-12 body",
              tags$h1("Shiny Template"),
              tags$hr(),
-             tags$div(class= "boxTemplate",
+             tags$div(class= "col-sm-12 boxTemplate",
              tags$h2("Template 1",tags$a(href = "https://github.com/tanaphum/shiny-template-1",
                  tags$image(src="/logo/GitHub-Mark-Light-32px.png"
                             ))),
